@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.jumbo{
+    background-image: url(../Assets/jumboimage.jpg);
+    object-fit: contain;
+    background-clip: content-box;
+    background-size:cover
+    
+}
+.overlay{
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    height: 100%;
+    transition: opacity 0.25s ease 0s;
+    padding: 124px;
+}
