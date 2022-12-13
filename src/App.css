@@ -1,3 +1,5 @@
+@import "https://unpkg.com/open-props";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
 @tailwind base;
 @tailwind components;
@@ -17,4 +19,30 @@
     height: 100%;
     transition: opacity 0.25s ease 0s;
     padding: 124px;
+}
+
+.mygrid{
+    grid-auto-columns: 40%;
+    overscroll-behavior-inline: contain;
+    grid-template-rows: min-content;
+}
+
+.snapper{
+    scroll-snap-type: inline mandatory;
+}
+
+.snapper > *{
+    scroll-snap-align: start;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50vw;
+    overflow: auto;
+}
+.myflex{
+    display: flex;
+    flex-direction: row;
+  
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar,Jumbotron,AbsImg,AboutUs,Restaurants } from '../PageImports'
+import { Navbar,Jumbotron,AbsImg,AboutUs,Restaurants, Hotels } from '../PageImports'
 export const Home = () => {
   return (
     <main>
@@ -9,6 +9,7 @@ export const Home = () => {
         <AbsImg/>
         <AboutUs/>
         <Restaurants/>
+        <Hotels/>
         <h1 className="5xl">Home</h1>
 
     </main>
