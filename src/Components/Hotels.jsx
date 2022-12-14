@@ -3,7 +3,7 @@ import React from 'react'
 import { data } from '../RestaurantData'
 export const Hotels = () => {
   return (
-    <section  className=' md:h-[30vh] font-Poppins mt-52'>
+    <section  className=' md:h-[30vh] font-Poppins lg:mt-52 md:mt-88 mt-96'>
         <div className='   flex flex-col justify-center text-center overflow-hidden'>
             <h1 className='border-b-2 w-80 p-0 text-center text-3xl mx-auto'>
                 Top Hotels
@@ -15,9 +15,9 @@ export const Hotels = () => {
                   {
                     data.map((restaurant)=>{
                       return <div >
-                        <img src={restaurant.Image} alt="" className='bg-fixed  object-cover w-80 h-52 ' />
+                        <img src={restaurant.Image} alt="" className='bg-fixed  object-cover md:w-80 h-52 ' />
                         <p className='mt-2 mb-4  font-semibold font-poppins'>{restaurant.Title}</p>
-                        <p className='font-black'>{restaurant.Text}</p>
+                        <p className='text-gray-800'>{restaurant.Text}</p>
                       </div>
                     })
                   }
@@ -26,9 +26,9 @@ export const Hotels = () => {
                 {
                     data.map((restaurant)=>{
                       return <div>
-                        <img src={restaurant.Image} alt="" className='object-cover bg-fixed w-80 h-52'/>
+                        <img src={restaurant.Image} alt="" className='object-cover bg-fixed md:w-80 w-96 h-52'/>
                         <p className='mt-2 mb-4 font-semibold'>{restaurant.Title}</p>
-                        <p className='font-black'>{restaurant.Text}</p>
+                        <p className='text-gray-800'>{restaurant.Text}</p>
                       </div>
                     })
                   }

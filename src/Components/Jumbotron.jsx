@@ -5,7 +5,7 @@ export const Jumbotron = ({image,text}) => {
     image?image:image =jmb
   return (
     <section>
-        <div className='w-full h-[80vh] overflow-hidden jumbo object-contain bg-fixed md:bg-bottom bg-cover '>
+        <div className='w-full md:h-[80vh] overflow-hidden jumbo object-contain bg-fixed md:bg-bottom bg-cover '>
            <div className="overlay md:backdrop-blur-sm w-full">
             <div className="flex justify-center align-middle flex-col gap-10 z-10">
                   <div className='flex flex-row md:gap-10 gap-20 justify-center'>

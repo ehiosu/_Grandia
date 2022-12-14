@@ -5,4 +5,5 @@ import { AbsImg } from "./Components/AbsImg";
 import { AboutUs } from "./Components/AboutUs";
 import { Restaurants } from "./Components/Restaurants";
 import { Hotels } from "./Components/Hotels";
-export  {Home,Navbar,Jumbotron,AbsImg,AboutUs,Restaurants,Hotels};
+import { ContactUs } from "./Components/ContactUs";
+export  {Home,Navbar,Jumbotron,AbsImg,AboutUs,Restaurants,Hotels,ContactUs};

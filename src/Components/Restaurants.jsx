@@ -11,24 +11,24 @@ export const Restaurants = () => {
             </h1>
               <div className="w-[80vw] mx-auto overflow-hidden ">
               <div className="flex my-4 w-[200%] gap-2">
-                <div className="flex w-[100%] animate-marquee-infinite gap-2">
+                <div className="flex w-[100%] md:animate-marquee-infinite animate-sm-marquee-infinite gap-2">
                   {
                     data.map((restaurant)=>{
                       return <div >
                         <img src={restaurant.Image} alt="" className='bg-fixed  object-cover w-80 h-52 ' />
                         <p className='mt-2 mb-4  font-semibold font-poppins'>{restaurant.Title}</p>
-                        <p className='font-black'>{restaurant.Text}</p>
+                        <p className='text-gray-800'>{restaurant.Text}</p>
                       </div>
                     })
                   }
                 </div>
-                <div className="flex w-[100%] animate-marquee-infinite  gap-2">
+                <div className="flex w-[100%] md:animate-marquee-infinite animate-sm-marquee-infinite  gap-2">
                 {
                     data.map((restaurant)=>{
                       return <div>
                         <img src={restaurant.Image} alt="" className='object-cover bg-fixed w-80 h-52'/>
                         <p className='mt-2 mb-4 font-semibold'>{restaurant.Title}</p>
-                        <p className='font-black'>{restaurant.Text}</p>
+                        <p className='text-gray-800'>{restaurant.Text}</p>
                       </div>
                     })
                   }
