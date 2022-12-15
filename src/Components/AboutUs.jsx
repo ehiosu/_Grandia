@@ -11,7 +11,7 @@ export const AboutUs = () => {
                     <h1 className='font-semibold text-4xl border-b-2 border-[#000000] border-opacity-5 md:p-4 p-2  '>About Grandia </h1>
                     <span className='relative rounded-full bg-[#A47A48] w-5 h-5 translate-y-[-10px] left-[46%] md:left-[50%]'></span>
                     
-                        <p className='mx-auto md:max-w-[80%] w-full font-black'>
+                        <p className='mx-auto md:max-w-[80%] w-full text-gray-900'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra lacus, dolor senectus quis urna rhoncus. Etiam suspendisse imperdiet eget feugiat scelerisque. Suspendisse quam sed at mattis at. Pretium, auctor non, vitae urna enim elit nisi, turpis quisque. Vitae sed odio dapibus morbi vel.
                         </p>
                     

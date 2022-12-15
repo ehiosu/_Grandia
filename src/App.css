@@ -5,7 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.main{
+    overscroll-behavior: auto;
+}
 .jumbo{
     background-image: url(../Assets/jumboimage.jpg);
     object-fit: contain;
@@ -40,6 +42,7 @@
     justify-content: center;
     width: 50vw;
     overflow: auto;
+    
 }
 .myflex{
     display: flex;
@@ -54,4 +57,9 @@
 }
 .icon{
     transition: 1s ease-in-out;
+}
+
+.contact-card{
+    animation-fill-mode: forwards;
+    transition: 1s;
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Navbar,Jumbotron,AbsImg,AboutUs,Restaurants, Hotels,ContactUs } from '../PageImports'
+import { Navbar,Jumbotron,AbsImg,AboutUs,Restaurants, Hotels,ContactUs, Footer } from '../PageImports'
 export const Home = () => {
   return (
-    <main>
+    <main className='main'>
        
         <Navbar/>
         <Jumbotron/>
@@ -11,7 +11,8 @@ export const Home = () => {
         <Restaurants/>
         <Hotels/>
         <ContactUs/>
-        <h1 className="5xl">Home</h1>
+        <Footer/>
+       
 
     </main>
   )

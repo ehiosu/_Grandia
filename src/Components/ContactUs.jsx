@@ -1,11 +1,11 @@
 import React from 'react'
-import Anime, { anime } from 'react-anime';
+// import Anime, { anime } from 'react-anime';
 import {AiFillPhone,AiFillMail,} from 'react-icons/ai'
 
 import {MdLocationOn} from 'react-icons/md'
 export const ContactUs = () => {
   return (
-    <section className='font-poppins md:absolute lg:mt-56 md:mt-80 w-full overflow-hidden'>
+    <section className='font-poppins md:absolute lg:mt-56 md:mt-80 w-full '>
       <div className= "flex flex-col justify-center text-center">
       
             <div className="flex flex-col justify-center text-center">
@@ -18,20 +18,21 @@ export const ContactUs = () => {
 
         </div> */}
         <div className='md:w-[90%] w-full text- mx-auto mt-10 '>
-          <div className='grid md:grid-cols-3 grid-cols-1 md:gap-0 gap-6 '>
-            <div className='testflex '>
+          <div className='grid md:grid-cols-3 grid-cols-1 md:gap-0 gap-6 h-[25vh] '>
+            <div className='testflex hover:shadow-lg'>
               <AiFillPhone className=''/>
-              <p className='text-[1rem] my-4'>Phone Number</p>
+              <p className='text-[1rem] my-6'>Phone Number</p>
               <p className='md:my-3 my-1 text-[1rem]  text-gray-600'>+234 847 277 0923</p>
             </div>
-            <div className='testflex   '>
+            <div className='testflex hover:shadow-lg '>
             <AiFillMail/>
-            <p className='text-[1rem] my-4'>Email</p>
+            <p className='text-[1rem] my-6'>Email</p>
+            
             <p className='md:my-3 my-1 text-[1rem]  text-gray-600'>grandia.10@gmail.com</p>
             </div>
-            <div className='testflex '>
+            <div className='testflex hover:shadow-lg'>
             <MdLocationOn/>
-            <p className='text-[1rem] my-4'>Location</p>
+            <p className='text-[1rem] my-6'>Location</p>
             <p className='md:my-3 my-1 text-[1rem] text-gray-600'>6391 Elgin St. Celina, Delaware </p>
             <p></p>
             </div>
